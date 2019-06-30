@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import './EditMe.css'
+import '../styles/EditMe.css'
 import Card from './Card'
 import { ANIMALS, TERRITORIES, ME_FILENAME } from './constants'
 

@@ -7,7 +7,7 @@ import NavBar from './NavBar'
 import OptionsList from './OptionsList'
 import OtherKingdoms from './OtherKingdoms'
 import { appConfig, ME_FILENAME } from './constants'
-import './SignedIn.css'
+import './styles/SignedIn.css'
 
 
 class SignedIn extends Component {

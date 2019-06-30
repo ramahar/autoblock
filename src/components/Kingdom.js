@@ -6,7 +6,7 @@ import { jsonCopy, subjectFromKingdomUrl,
 import Subject from './Subject'
 import { appConfig, SUBJECTS_FILENAME, EXPLORER_URL } from './constants'
 
-import './Kingdom.css'
+import '../styles/Kingdom.css'
 
 class Kingdom extends Component {
 
