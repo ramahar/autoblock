@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { UserSession } from 'blockstack'
 import { appConfig, OTHER_KINGDOMS } from './constants'
-import { loadRuler, loadSubjects } from './utils'
+import { loadRuler, loadSubjects } from '../utils'
 
 class OtherKingdoms extends Component {
 

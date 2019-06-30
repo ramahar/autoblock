@@ -20,8 +20,6 @@ class SignedIn extends Component {
       savingMe: false,
       savingKingdown: false,
       redirectToMe: false
-      //selectedAnimal: false,
-      //selectedTerritory: false
     }
 
     this.loadMe = this.loadMe.bind(this)
