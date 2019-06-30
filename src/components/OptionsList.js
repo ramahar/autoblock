@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { ANIMALS, TERRITORIES } from './constants'
-import './styles/OptionsList.css'
+import '../styles/OptionsList.css'
 
 class OptionsList extends Component {
 

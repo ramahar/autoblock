@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { UserSession } from 'blockstack'
 import { jsonCopy, subjectFromKingdomUrl,
-  loadRuler, loadSubjects, resolveSubjects } from './utils'
+  loadRuler, loadSubjects, resolveSubjects } from '../utils'
 import Subject from './Subject'
 import { appConfig, SUBJECTS_FILENAME, EXPLORER_URL } from './constants'
 

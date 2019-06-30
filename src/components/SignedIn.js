@@ -7,7 +7,7 @@ import NavBar from './NavBar'
 import OptionsList from './OptionsList'
 import OtherKingdoms from './OtherKingdoms'
 import { appConfig, ME_FILENAME } from './constants'
-import './styles/SignedIn.css'
+import '../styles/SignedIn.css'
 
 
 class SignedIn extends Component {
@@ -79,7 +79,7 @@ class SignedIn extends Component {
       )
     }
 
-
+    // Configure all routes 
     return (
       <div className="SignedIn">
       <NavBar username={username} signOut={this.signOut}/>
@@ -115,8 +115,6 @@ class SignedIn extends Component {
                   me={me}
                   saveMe={this.saveMe}
                   username={username}
-                  //selectedAnimal={this.props.selectedAnimal}
-                  //selectedTerritory={this.props.selectedAnimal}
                   {...routeProps} />
                 }
               />
