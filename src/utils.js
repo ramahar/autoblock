@@ -1,4 +1,4 @@
-import { ME_FILENAME, SUBJECTS_FILENAME } from './constants'
+import { ME_FILENAME, SUBJECTS_FILENAME } from './components/constants'
 
 export function jsonCopy(object) {
   return JSON.parse(JSON.stringify(object))
